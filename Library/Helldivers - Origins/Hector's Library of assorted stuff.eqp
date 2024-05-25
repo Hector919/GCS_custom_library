@@ -1,0 +1,1216 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "4321df1a-99bf-43ad-9ad0-c1fdd9eb3d2b",
+			"type": "equipment",
+			"description": "Holdout Pistol, 7×26mm",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 250,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "27c1421b-197e-4f30-a73d-245633b98b81",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d"
+					},
+					"strength": "6",
+					"accuracy": "1",
+					"range": "100/1,200",
+					"rate_of_fire": "3",
+					"shots": "20+1(3)",
+					"bulk": "-1",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "2d pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e36e0db1-b120-4c7d-8473-80335890b77c",
+			"type": "equipment",
+			"description": "Medium Pistol, 7×26mm",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "8ccc9bf4-322f-4d8d-8764-077e2beeee89",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+2"
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "150/1,900",
+					"rate_of_fire": "3",
+					"shots": "30+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "2d+2 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "f6c7a0e9-b455-4a57-9353-a03ecceeab49",
+			"type": "equipment",
+			"description": "Heavy Pistol, 10×28mm",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 500,
+			"weight": "2.5 lb",
+			"weapons": [
+				{
+					"id": "bf32a914-fcb1-4f2a-98fc-78daa24818bd",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "3d"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "180/2,000",
+					"rate_of_fire": "3",
+					"shots": "20+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "580187a5-1fa6-45b1-b4f0-ae87ce7042dd",
+			"type": "equipment",
+			"description": "Magnum Pistol, 15×32mm",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 850,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "1b47b49d-2474-4ce1-971e-4312f7574f48",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi++",
+						"base": "4d+1"
+					},
+					"strength": "11",
+					"accuracy": "2",
+					"range": "235/2,600",
+					"rate_of_fire": "3",
+					"shots": "9+1(3)",
+					"bulk": "-2",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d+1 pi++"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 850,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "4c6969ef-080f-42c2-859a-2d1150bb52a5",
+			"type": "equipment",
+			"description": "SMG, 10×28mm",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 1750,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "9605df0e-463f-4969-8d58-2e0c4ad5fd9a",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "3d"
+					},
+					"strength": "9†",
+					"accuracy": "4",
+					"range": "200/2,100",
+					"rate_of_fire": "10",
+					"shots": "40+1(3)",
+					"bulk": "-3",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1750,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "04492e5c-04c4-4ca4-9650-f2e59617df70",
+			"type": "equipment",
+			"description": "Personal Defense Weapon, 5×30mm",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 1000,
+			"weight": "4.5 lb",
+			"weapons": [
+				{
+					"id": "6418cfe3-e376-4d3e-b152-56bc2b8a7f47",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi-",
+						"base": "4d"
+					},
+					"strength": "9†",
+					"accuracy": "4",
+					"range": "350/3,000",
+					"rate_of_fire": "10",
+					"shots": "100+1(5)",
+					"bulk": "-3",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d pi-"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "937e8046-d012-486c-bb01-579c3f07f5b7",
+			"type": "equipment",
+			"description": "Hunting Rifle, 7×55mm",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "7 lb",
+			"weapons": [
+				{
+					"id": "5c8405f2-1555-40ef-b1c5-30e4b477680f",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "6d+1"
+					},
+					"strength": "9†",
+					"accuracy": "4",
+					"range": "750/4,200",
+					"rate_of_fire": "3",
+					"shots": "10+1(3)",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d+1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "55c7567c-8121-4c97-88bc-8b917d792212",
+			"type": "equipment",
+			"description": "Assault Carbine, 7×55mm",
+			"reference": "UT137",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 1600,
+			"weight": "7 lb",
+			"weapons": [
+				{
+					"id": "11fb031a-562f-466b-8964-ea841cd95106",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "6d"
+					},
+					"strength": "9†",
+					"accuracy": "4",
+					"range": "700/4,000",
+					"rate_of_fire": "15",
+					"shots": "45+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "086fd6af-10fb-4929-b65d-99249e483940",
+			"type": "equipment",
+			"description": "Civilian Shotgun, 18.5×75mm",
+			"reference": "UT138",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 450,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "3505f423-2558-4b32-8ee3-f0b3206e234e",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi++",
+						"base": "4d+4"
+					},
+					"strength": "10†",
+					"accuracy": "3",
+					"range": "100/500",
+					"rate_of_fire": "3",
+					"shots": "5+1(3)",
+					"bulk": "-5",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d+4 pi++"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 450,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "8261a34e-c764-447a-9d6c-0badd3ebd90a",
+			"type": "equipment",
+			"description": "Underbarrel Shotgun, 18.5×75mm",
+			"reference": "UT138",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 350,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "444a43e0-d3c7-4078-9364-7995b9d2d0e7",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi++",
+						"base": "4d"
+					},
+					"strength": "10†",
+					"accuracy": "1",
+					"range": "100/500",
+					"rate_of_fire": "3",
+					"shots": "5+1(3)",
+					"recoil": "5",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d pi++"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 350,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "2daeda85-c589-4d87-8f06-6dd360b4a410",
+			"type": "equipment",
+			"description": "Automatic Shotgun, 18.5×75mm",
+			"reference": "UT138",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 800,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "cf4d06ce-c960-4aeb-a362-c39c9a94acb0",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi++",
+						"base": "4d+4"
+					},
+					"strength": "11†",
+					"accuracy": "3",
+					"range": "100/500",
+					"rate_of_fire": "10",
+					"shots": "10+1(3)",
+					"bulk": "-5",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d+4 pi++"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "9edd5f99-c1ab-40be-a3cf-659c68aad040",
+			"type": "equipment",
+			"description": "Electrolaser Pistol",
+			"reference": "UT120",
+			"notes": "Power Supply: 1×C-Cell",
+			"tech_level": "9",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 1800,
+			"weight": "2.2 lb",
+			"weapons": [
+				{
+					"id": "b3fa3cea-0649-48e4-886f-c2f8d8cbc4b4",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn",
+						"base": "1d-3"
+					},
+					"strength": "4",
+					"usage_notes": "Linked Stun Affliction: HT-4 (2) aff",
+					"accuracy": "4",
+					"range": "40/80",
+					"rate_of_fire": "3",
+					"shots": "36(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d-3 burn"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1800,
+				"extended_weight": "2.2 lb"
+			}
+		},
+		{
+			"id": "0258df5d-b039-40fa-8a9e-d3c5129557da",
+			"type": "equipment",
+			"description": "Electrolaser Carbine",
+			"reference": "UT120",
+			"notes": "Power Supply: 2×C-Cell",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 3900,
+			"weight": "3.7 lb",
+			"weapons": [
+				{
+					"id": "635fd428-5629-4226-96e7-16816438bdb8",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn",
+						"base": "1d-3"
+					},
+					"strength": "4†",
+					"usage_notes": "Linked Stun Affliction: HT-4 (2)",
+					"accuracy": "8",
+					"range": "160/470",
+					"rate_of_fire": "3",
+					"shots": "72(3)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d-3 burn"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 3900,
+				"extended_weight": "3.7 lb"
+			}
+		},
+		{
+			"id": "45f31ae1-3de1-4acc-97a4-ccf73b5c3745",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "65876be6-305e-4d1e-b89a-a1e4bd010468",
+					"type": "equipment",
+					"description": "7×26mm",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"quantity": 1,
+					"value": 0.2,
+					"weight": "0.006 lb",
+					"calc": {
+						"extended_value": 0.2,
+						"extended_weight": "0.006 lb"
+					}
+				},
+				{
+					"id": "20c0eadb-4834-4936-a85b-087ef6b11979",
+					"type": "equipment",
+					"description": "10×28mm",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"quantity": 1,
+					"value": 0.3,
+					"weight": "0.014 lb",
+					"calc": {
+						"extended_value": 0.3,
+						"extended_weight": "0.014 lb"
+					}
+				},
+				{
+					"id": "109acf3f-c21a-4986-b96b-3a9f27ba68ac",
+					"type": "equipment",
+					"description": "5×30mm",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"quantity": 1,
+					"value": 0.2,
+					"weight": "0.008 lb",
+					"calc": {
+						"extended_value": 0.2,
+						"extended_weight": "0.008 lb"
+					}
+				},
+				{
+					"id": "3a8429c5-c0a0-4bb8-aedc-56111f66a440",
+					"type": "equipment",
+					"description": "7×55mm",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"quantity": 10,
+					"value": 0.6,
+					"weight": "0.026 lb",
+					"calc": {
+						"extended_value": 6,
+						"extended_weight": "0.26 lb"
+					}
+				},
+				{
+					"id": "60a7beaa-0e15-40fd-9f98-f31e25a66a6d",
+					"type": "equipment",
+					"description": "C cell",
+					"reference": "UT19",
+					"tech_level": "9",
+					"tags": [
+						"Power"
+					],
+					"quantity": 1,
+					"value": 10,
+					"weight": "0.5 lb",
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "0.5 lb"
+					}
+				},
+				{
+					"id": "e2366d87-2623-4a7c-8cd9-3a4a7071a3d3",
+					"type": "equipment",
+					"description": "20-round magazine, 7×26mm",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"modifiers": [
+						{
+							"id": "50faa6c1-64eb-4fc2-b727-a0cc57a051c7",
+							"type": "eqp_modifier",
+							"name": "FMJ",
+							"notes": "2d+2 pi",
+							"cost": "+4",
+							"weight": "+0.06 kg"
+						},
+						{
+							"id": "2e162d13-359e-4947-b411-52b23cb5e4f5",
+							"type": "eqp_modifier",
+							"name": "AP",
+							"notes": "2d+2 (2) pi-",
+							"disabled": true,
+							"cost": "+8",
+							"weight": "+0.06 kg"
+						},
+						{
+							"id": "4a4f912b-189a-4276-93df-4341812dc8b8",
+							"type": "eqp_modifier",
+							"name": "HP",
+							"notes": "2d+2 (0.5) pi+",
+							"disabled": true,
+							"cost": "+4",
+							"weight": "+0.06 kg"
+						}
+					],
+					"quantity": 1,
+					"value": 16,
+					"weight": "0.32 lb",
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "0.44 lb"
+					}
+				},
+				{
+					"id": "fbdc2a52-378e-4829-b429-e416c54bab08",
+					"type": "equipment",
+					"description": "30-round magazine, 7×26mm",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"modifiers": [
+						{
+							"id": "50faa6c1-64eb-4fc2-b727-a0cc57a051c7",
+							"type": "eqp_modifier",
+							"name": "FMJ",
+							"notes": "2d+2 pi",
+							"cost": "+4",
+							"weight": "+0.09 kg"
+						},
+						{
+							"id": "2e162d13-359e-4947-b411-52b23cb5e4f5",
+							"type": "eqp_modifier",
+							"name": "AP",
+							"notes": "2d+2 (2) pi-",
+							"disabled": true,
+							"cost": "+8",
+							"weight": "+0.09 kg"
+						},
+						{
+							"id": "4a4f912b-189a-4276-93df-4341812dc8b8",
+							"type": "eqp_modifier",
+							"name": "HP",
+							"notes": "2d+2 (0.5) pi+",
+							"disabled": true,
+							"cost": "+4",
+							"weight": "+0.09 kg"
+						}
+					],
+					"quantity": 1,
+					"value": 16,
+					"weight": "0.32 lb",
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "0.5 lb"
+					}
+				},
+				{
+					"id": "47ac85b3-f4dc-4371-8380-254fc8afcc83",
+					"type": "equipment",
+					"description": "20-round magazine, 10×28mm",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"modifiers": [
+						{
+							"id": "a33038b3-8944-44b3-ae61-9366f073eb90",
+							"type": "eqp_modifier",
+							"name": "FMJ",
+							"notes": "3d pi+",
+							"cost": "+6",
+							"weight": "+0.14 kg"
+						},
+						{
+							"id": "7daa0183-c8f7-4cee-ba72-0a4d60416b07",
+							"type": "eqp_modifier",
+							"name": "AP",
+							"notes": "3d (2) pi",
+							"disabled": true,
+							"cost": "+12",
+							"weight": "+0.14 kg"
+						},
+						{
+							"id": "e9e19de2-a8e8-41f3-93f1-6a46f3556857",
+							"type": "eqp_modifier",
+							"name": "HP",
+							"notes": "3d (0.5) pi++",
+							"disabled": true,
+							"cost": "+6",
+							"weight": "+0.14 kg"
+						}
+					],
+					"quantity": 1,
+					"value": 24,
+					"weight": "0.47 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 30,
+						"extended_weight": "0.75 lb"
+					}
+				},
+				{
+					"id": "735a441f-410e-45ff-91e4-8eee6818b5c7",
+					"type": "equipment",
+					"description": "40-round magazine, 10×28mm",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"modifiers": [
+						{
+							"id": "a33038b3-8944-44b3-ae61-9366f073eb90",
+							"type": "eqp_modifier",
+							"name": "FMJ",
+							"notes": "3d pi+",
+							"cost": "+12",
+							"weight": "+0.28 kg"
+						},
+						{
+							"id": "7daa0183-c8f7-4cee-ba72-0a4d60416b07",
+							"type": "eqp_modifier",
+							"name": "AP",
+							"notes": "3d (2) pi",
+							"disabled": true,
+							"cost": "+24",
+							"weight": "+0.28 kg"
+						},
+						{
+							"id": "e9e19de2-a8e8-41f3-93f1-6a46f3556857",
+							"type": "eqp_modifier",
+							"name": "HP",
+							"notes": "3d (0.5) pi++",
+							"disabled": true,
+							"cost": "+12",
+							"weight": "+0.28 kg"
+						}
+					],
+					"quantity": 1,
+					"value": 38,
+					"weight": "0.64 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "1.2 lb"
+					}
+				},
+				{
+					"id": "a8d55947-eb51-4508-92b4-5b9b6531227d",
+					"type": "equipment",
+					"description": "9-round magazine, 15×32mm",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"modifiers": [
+						{
+							"id": "a33038b3-8944-44b3-ae61-9366f073eb90",
+							"type": "eqp_modifier",
+							"name": "FMJ",
+							"notes": "4d+1 pi++",
+							"cost": "+5",
+							"weight": "+0.25 kg"
+						},
+						{
+							"id": "7daa0183-c8f7-4cee-ba72-0a4d60416b07",
+							"type": "eqp_modifier",
+							"name": "AP",
+							"notes": "4d+1 (2) pi+",
+							"disabled": true,
+							"cost": "+10",
+							"weight": "+0.25 kg"
+						}
+					],
+					"quantity": 1,
+					"value": 25,
+					"weight": "0.5 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 30,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "cc6d0eb3-e3a1-47de-83df-6ee9b58f4e46",
+					"type": "equipment",
+					"description": "100-round magazine, 5×30mm",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"modifiers": [
+						{
+							"id": "a33038b3-8944-44b3-ae61-9366f073eb90",
+							"type": "eqp_modifier",
+							"name": "FMJ",
+							"notes": "4d pi-",
+							"cost": "+20",
+							"weight": "+0.4 kg"
+						},
+						{
+							"id": "7daa0183-c8f7-4cee-ba72-0a4d60416b07",
+							"type": "eqp_modifier",
+							"name": "AP",
+							"notes": "3d (2) pi-",
+							"disabled": true,
+							"cost": "+40",
+							"weight": "+0.4 kg"
+						},
+						{
+							"id": "e9e19de2-a8e8-41f3-93f1-6a46f3556857",
+							"type": "eqp_modifier",
+							"name": "HP",
+							"notes": "4d (0.5) pi",
+							"disabled": true,
+							"cost": "+20",
+							"weight": "+0.4 kg"
+						}
+					],
+					"quantity": 1,
+					"value": 25,
+					"weight": "0.2 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 45,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "661e3150-943d-43b0-993d-aa74cbf49019",
+					"type": "equipment",
+					"description": "45-round magazine, 7×55mm",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"modifiers": [
+						{
+							"id": "bd46e18f-fe5b-4b18-ad02-36e4aae0142d",
+							"type": "eqp_modifier",
+							"name": "FMJ",
+							"notes": "6d pi",
+							"cost": "+27",
+							"weight": "+0.585 kg"
+						},
+						{
+							"id": "2fc52f78-a60a-4c74-9b39-d166d30f3cac",
+							"type": "eqp_modifier",
+							"name": "AP",
+							"notes": "6d (2) pi-",
+							"disabled": true,
+							"cost": "+54",
+							"weight": "+0.585 kg"
+						},
+						{
+							"id": "00ece84f-08fe-4e0c-b150-82c415d1a6ae",
+							"type": "eqp_modifier",
+							"name": "HP",
+							"notes": "6d (0.5) pi+",
+							"disabled": true,
+							"cost": "+27",
+							"weight": "+0.585 kg"
+						}
+					],
+					"quantity": 1,
+					"value": 25,
+					"weight": "0.18 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 52,
+						"extended_weight": "1.35 lb"
+					}
+				},
+				{
+					"id": "7a613d0d-9723-48a3-b4bd-7c64ea8e2f35",
+					"type": "equipment",
+					"description": "10-round magazine, 7×55mm",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"modifiers": [
+						{
+							"id": "bd46e18f-fe5b-4b18-ad02-36e4aae0142d",
+							"type": "eqp_modifier",
+							"name": "FMJ",
+							"notes": "6d pi",
+							"cost": "+6",
+							"weight": "+0.13 kg"
+						},
+						{
+							"id": "2fc52f78-a60a-4c74-9b39-d166d30f3cac",
+							"type": "eqp_modifier",
+							"name": "AP",
+							"notes": "6d (2) pi-",
+							"disabled": true,
+							"cost": "+12",
+							"weight": "+0.13 kg"
+						},
+						{
+							"id": "00ece84f-08fe-4e0c-b150-82c415d1a6ae",
+							"type": "eqp_modifier",
+							"name": "HP",
+							"notes": "6d (0.5) pi+",
+							"disabled": true,
+							"cost": "+6",
+							"weight": "+0.13 kg"
+						}
+					],
+					"quantity": 1,
+					"value": 25,
+					"weight": "0.04 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 31,
+						"extended_weight": "0.3 lb"
+					}
+				}
+			],
+			"open": true,
+			"description": "Magazines \u0026 Ammunition",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 294.7,
+				"extended_weight": "7.328 lb"
+			}
+		}
+	]
+}
