@@ -1,0 +1,33 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "0b9ae2bb-91c8-445f-9faa-8905b533a9c0",
+			"type": "trait",
+			"name": "Gunlink",
+			"notes": "the benefit of having either a pair of HUD glasses, targeting visor, or neural interface implant that shows you with crosshairs in your view where your gun is pointed",
+			"tags": [
+				"Perk"
+			],
+			"base_points": 1,
+			"features": [
+				{
+					"type": "weapon_acc_bonus",
+					"selection_type": "weapons_with_name",
+					"level": {
+						"compare": "at_least"
+					},
+					"tags": {
+						"compare": "is",
+						"qualifier": "Gunlink"
+					},
+					"amount": 1
+				}
+			],
+			"calc": {
+				"points": 1
+			}
+		}
+	]
+}

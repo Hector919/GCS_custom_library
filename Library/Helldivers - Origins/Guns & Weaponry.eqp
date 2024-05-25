@@ -10,6 +10,7 @@
 			"tech_level": "9",
 			"legality_class": "3",
 			"tags": [
+				"Gunlink",
 				"Missile Weapon",
 				"Weaponry"
 			],
@@ -65,6 +66,7 @@
 			"tech_level": "9",
 			"legality_class": "3",
 			"tags": [
+				"Gunlink",
 				"Missile Weapon",
 				"Weaponry"
 			],
@@ -120,6 +122,7 @@
 			"tech_level": "9",
 			"legality_class": "3",
 			"tags": [
+				"Gunlink",
 				"Missile Weapon",
 				"Weaponry"
 			],
@@ -168,6 +171,669 @@
 			}
 		},
 		{
+			"id": "493c41a2-00aa-4bb7-8460-a7cca5f37739",
+			"type": "equipment",
+			"description": "Zap Glove",
+			"reference": "UT165",
+			"notes": "B/10 uses",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Melee Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "c804c9fe-3afc-43cb-84eb-7cf1897beb1f",
+					"type": "melee_weapon",
+					"damage": {
+						"type": ""
+					},
+					"strength": "2",
+					"usage": "Zap",
+					"usage_notes": "Linked Stun Affliction: HT-6(2)",
+					"reach": "C",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "skill",
+							"name": "Karate"
+						},
+						{
+							"type": "dx"
+						}
+					]
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "22ff0ecd-615d-4cce-99e8-4ad525467e13",
+			"type": "equipment",
+			"description": "Stun Baton",
+			"reference": "UT165",
+			"notes": "B/20 hits.",
+			"tech_level": "9",
+			"tags": [
+				"Melee Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "f457d162-f645-457a-a8c3-78e104eea27d",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw"
+					},
+					"strength": "5",
+					"usage": "Swing",
+					"usage_notes": "Linked Stun Affliction: HT-5(0.5)",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw cr"
+					}
+				},
+				{
+					"id": "36994131-5d56-4c43-9210-07346a6cf43c",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "5",
+					"usage": "Thrust",
+					"usage_notes": "Linked Stun Affliction: HT-5(0.5)",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "thr cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "4f29b58a-ebd1-4777-a072-8c177b91f116",
+			"type": "equipment",
+			"description": "Fire Rescue Axe",
+			"reference": "HT25",
+			"tech_level": "8",
+			"tags": [
+				"General Equipment"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "4.5 lb",
+			"weapons": [
+				{
+					"id": "1f126d92-7eb2-4054-ad6a-497f389f5273",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "11†",
+					"usage": "Swing",
+					"reach": "1-2*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Way of Carnage!"
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						}
+					],
+					"calc": {
+						"damage": "sw+3 cut"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "7bd5c419-dace-49fd-aa47-c4b438bfaa16",
+			"type": "equipment",
+			"description": "Switchblade",
+			"reference": "LT58",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon",
+				"Missile Weapon"
+			],
+			"quantity": 1,
+			"value": 30,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "e86391de-7450-4985-9db2-1a8aa38db639",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-3"
+					},
+					"strength": "5",
+					"usage": "Swung",
+					"reach": "C,1",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw-3 cut"
+					}
+				},
+				{
+					"id": "bcba3b08-51ec-4b3c-ba4d-de0f4b631a78",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				},
+				{
+					"id": "36af47cd-42da-4e62-b527-bf600cb3fea6",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Thrown",
+					"range": "x0.5/x1",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Knife"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "85b181ba-a8cd-4834-9a4c-11f89346a22c",
+			"type": "equipment",
+			"description": "Combat Knife",
+			"reference": "LT56",
+			"tech_level": "1",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "1.5 lb",
+			"weapons": [
+				{
+					"id": "671264f6-c085-4344-949e-5b7b79ddbf2b",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-1"
+					},
+					"strength": "7",
+					"usage": "Swung",
+					"reach": "C,1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw-1 cut"
+					}
+				},
+				{
+					"id": "9c26a777-0cee-4fde-b42b-eeb5dc8a06a4",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "7",
+					"usage": "Thrust",
+					"reach": "C,1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "eb2c1e7e-c6cf-424e-92ae-9048c6fbd2ff",
+			"type": "equipment",
+			"description": "Katana",
+			"reference": "LT57",
+			"tech_level": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 650,
+			"weight": "5 lb",
+			"weapons": [
+				{
+					"id": "c7837f16-b455-4acf-b5df-542082bd8948",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "11",
+					"usage": "Swing - One Handed",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cut"
+					}
+				},
+				{
+					"id": "cd27f1d3-0ae9-45ac-8399-97ac083dadfa",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "11",
+					"usage": "Thrust - One Handed",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp"
+					}
+				},
+				{
+					"id": "d75212d5-91a8-498e-a39f-9f104d07aed1",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "10†",
+					"usage": "Swing - Two Handed",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+2 cut"
+					}
+				},
+				{
+					"id": "eb5cfe72-f40a-413d-9036-2d2cc7633df6",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "10†",
+					"usage": "Thrust - Two Handed",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 650,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
 			"id": "580187a5-1fa6-45b1-b4f0-ae87ce7042dd",
 			"type": "equipment",
 			"description": "Magnum Pistol, 15×32mm",
@@ -175,6 +841,7 @@
 			"tech_level": "9",
 			"legality_class": "3",
 			"tags": [
+				"Gunlink",
 				"Missile Weapon",
 				"Weaponry"
 			],
@@ -230,6 +897,7 @@
 			"tech_level": "9",
 			"legality_class": "2",
 			"tags": [
+				"Gunlink",
 				"Missile Weapon",
 				"Weaponry"
 			],
@@ -285,6 +953,7 @@
 			"tech_level": "9",
 			"legality_class": "2",
 			"tags": [
+				"Gunlink",
 				"Missile Weapon",
 				"Weaponry"
 			],
@@ -340,6 +1009,7 @@
 			"tech_level": "9",
 			"legality_class": "3",
 			"tags": [
+				"Gunlink",
 				"Missile Weapon",
 				"Weaponry"
 			],
@@ -395,6 +1065,7 @@
 			"tech_level": "9",
 			"legality_class": "2",
 			"tags": [
+				"Gunlink",
 				"Missile Weapon",
 				"Weaponry"
 			],
@@ -450,6 +1121,7 @@
 			"tech_level": "9",
 			"legality_class": "3",
 			"tags": [
+				"Gunlink",
 				"Missile Weapon",
 				"Weaponry"
 			],
@@ -505,6 +1177,7 @@
 			"tech_level": "9",
 			"legality_class": "3",
 			"tags": [
+				"Gunlink",
 				"Missile Weapon",
 				"Weaponry"
 			],
@@ -559,6 +1232,7 @@
 			"tech_level": "9",
 			"legality_class": "2",
 			"tags": [
+				"Gunlink",
 				"Missile Weapon",
 				"Weaponry"
 			],
@@ -607,13 +1281,77 @@
 			}
 		},
 		{
+			"id": "2df4c564-14b5-4830-99e8-a9b2eeb08415",
+			"type": "equipment",
+			"description": "Holdout Electrolaser",
+			"reference": "UT120",
+			"notes": "1× B Cell",
+			"tech_level": "9",
+			"tags": [
+				"Gunlink",
+				"Missile Weapon",
+				"Weaponry"
+			],
+			"quantity": 1,
+			"value": 250,
+			"weight": "0.3 lb",
+			"weapons": [
+				{
+					"id": "762b82d4-6add-4f4a-b2a1-b149f56c5bf9",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn",
+						"base": "1d-3"
+					},
+					"strength": "3",
+					"usage_notes": "Linked Stun Affliction: HT-2 (2)",
+					"accuracy": "2",
+					"range": "10/20",
+					"rate_of_fire": "1",
+					"shots": "22(3)",
+					"bulk": "-1",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "1d-3 burn"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "0.3 lb"
+			}
+		},
+		{
 			"id": "9edd5f99-c1ab-40be-a3cf-659c68aad040",
 			"type": "equipment",
 			"description": "Electrolaser Pistol",
 			"reference": "UT120",
-			"notes": "Power Supply: 1×C-Cell",
+			"notes": "1× C Cell",
 			"tech_level": "9",
 			"tags": [
+				"Gunlink",
 				"Missile Weapon",
 				"Weaponry"
 			],
@@ -673,10 +1411,11 @@
 			"type": "equipment",
 			"description": "Electrolaser Carbine",
 			"reference": "UT120",
-			"notes": "Power Supply: 2×C-Cell",
+			"notes": "2× C Cell",
 			"tech_level": "9",
 			"legality_class": "3",
 			"tags": [
+				"Gunlink",
 				"Missile Weapon",
 				"Weaponry"
 			],
@@ -813,6 +1552,23 @@
 				},
 				{
 					"id": "60a7beaa-0e15-40fd-9f98-f31e25a66a6d",
+					"type": "equipment",
+					"description": "B cell",
+					"reference": "UT19",
+					"tech_level": "9",
+					"tags": [
+						"Power"
+					],
+					"quantity": 1,
+					"value": 2,
+					"weight": "0.05 lb",
+					"calc": {
+						"extended_value": 2,
+						"extended_weight": "0.05 lb"
+					}
+				},
+				{
+					"id": "13c24be9-2f24-4b8f-a57d-136709cb279d",
 					"type": "equipment",
 					"description": "C cell",
 					"reference": "UT19",
@@ -1106,54 +1862,6 @@
 					}
 				},
 				{
-					"id": "661e3150-943d-43b0-993d-aa74cbf49019",
-					"type": "equipment",
-					"description": "45-round magazine, 7×55mm",
-					"reference": "UT139",
-					"tech_level": "9",
-					"legality_class": "3",
-					"tags": [
-						"Ammunition",
-						"Weaponry"
-					],
-					"modifiers": [
-						{
-							"id": "bd46e18f-fe5b-4b18-ad02-36e4aae0142d",
-							"type": "eqp_modifier",
-							"name": "FMJ",
-							"notes": "6d pi",
-							"cost": "+27",
-							"weight": "+0.585 kg"
-						},
-						{
-							"id": "2fc52f78-a60a-4c74-9b39-d166d30f3cac",
-							"type": "eqp_modifier",
-							"name": "AP",
-							"notes": "6d (2) pi-",
-							"disabled": true,
-							"cost": "+54",
-							"weight": "+0.585 kg"
-						},
-						{
-							"id": "00ece84f-08fe-4e0c-b150-82c415d1a6ae",
-							"type": "eqp_modifier",
-							"name": "HP",
-							"notes": "6d (0.5) pi+",
-							"disabled": true,
-							"cost": "+27",
-							"weight": "+0.585 kg"
-						}
-					],
-					"quantity": 1,
-					"value": 25,
-					"weight": "0.18 lb",
-					"equipped": true,
-					"calc": {
-						"extended_value": 52,
-						"extended_weight": "1.35 lb"
-					}
-				},
-				{
 					"id": "7a613d0d-9723-48a3-b4bd-7c64ea8e2f35",
 					"type": "equipment",
 					"description": "10-round magazine, 7×55mm",
@@ -1200,6 +1908,54 @@
 						"extended_value": 31,
 						"extended_weight": "0.3 lb"
 					}
+				},
+				{
+					"id": "661e3150-943d-43b0-993d-aa74cbf49019",
+					"type": "equipment",
+					"description": "45-round magazine, 7×55mm",
+					"reference": "UT139",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Ammunition",
+						"Weaponry"
+					],
+					"modifiers": [
+						{
+							"id": "bd46e18f-fe5b-4b18-ad02-36e4aae0142d",
+							"type": "eqp_modifier",
+							"name": "FMJ",
+							"notes": "6d pi",
+							"cost": "+27",
+							"weight": "+0.585 kg"
+						},
+						{
+							"id": "2fc52f78-a60a-4c74-9b39-d166d30f3cac",
+							"type": "eqp_modifier",
+							"name": "AP",
+							"notes": "6d (2) pi-",
+							"disabled": true,
+							"cost": "+54",
+							"weight": "+0.585 kg"
+						},
+						{
+							"id": "00ece84f-08fe-4e0c-b150-82c415d1a6ae",
+							"type": "eqp_modifier",
+							"name": "HP",
+							"notes": "6d (0.5) pi+",
+							"disabled": true,
+							"cost": "+27",
+							"weight": "+0.585 kg"
+						}
+					],
+					"quantity": 1,
+					"value": 25,
+					"weight": "0.18 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 52,
+						"extended_weight": "1.35 lb"
+					}
 				}
 			],
 			"open": true,
@@ -1209,8 +1965,8 @@
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-				"extended_value": 335,
-				"extended_weight": "8.96 lb"
+				"extended_value": 337,
+				"extended_weight": "9.01 lb"
 			}
 		}
 	]
