@@ -746,12 +746,12 @@
 						"Ammunition",
 						"Weaponry"
 					],
-					"quantity": 1,
+					"quantity": 50,
 					"value": 0.2,
 					"weight": "0.006 lb",
 					"calc": {
-						"extended_value": 0.2,
-						"extended_weight": "0.006 lb"
+						"extended_value": 10,
+						"extended_weight": "0.3 lb"
 					}
 				},
 				{
@@ -765,12 +765,12 @@
 						"Ammunition",
 						"Weaponry"
 					],
-					"quantity": 1,
+					"quantity": 50,
 					"value": 0.3,
 					"weight": "0.014 lb",
 					"calc": {
-						"extended_value": 0.3,
-						"extended_weight": "0.014 lb"
+						"extended_value": 15,
+						"extended_weight": "0.7 lb"
 					}
 				},
 				{
@@ -784,12 +784,12 @@
 						"Ammunition",
 						"Weaponry"
 					],
-					"quantity": 1,
+					"quantity": 50,
 					"value": 0.2,
 					"weight": "0.008 lb",
 					"calc": {
-						"extended_value": 0.2,
-						"extended_weight": "0.008 lb"
+						"extended_value": 10,
+						"extended_weight": "0.4 lb"
 					}
 				},
 				{
@@ -803,12 +803,12 @@
 						"Ammunition",
 						"Weaponry"
 					],
-					"quantity": 10,
+					"quantity": 20,
 					"value": 0.6,
 					"weight": "0.026 lb",
 					"calc": {
-						"extended_value": 6,
-						"extended_weight": "0.26 lb"
+						"extended_value": 12,
+						"extended_weight": "0.52 lb"
 					}
 				},
 				{
@@ -1204,12 +1204,13 @@
 			],
 			"open": true,
 			"description": "Magazines \u0026 Ammunition",
+			"notes": "Loose ammunition listed here comes in boxes of the indicated number\nMagazines, including C-cells for electrolaser weaponry, come with selectable modifiers indicating the type of ammo loaded",
 			"legality_class": "4",
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
-				"extended_value": 294.7,
-				"extended_weight": "7.328 lb"
+				"extended_value": 335,
+				"extended_weight": "8.96 lb"
 			}
 		}
 	]
