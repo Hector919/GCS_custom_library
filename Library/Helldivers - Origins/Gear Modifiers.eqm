@@ -122,6 +122,17 @@
 					"weight": "+1 kg",
 					"features": [
 						{
+							"type": "weapon_bulk_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -1
+						},
+						{
 							"type": "weapon_scope_acc_bonus",
 							"selection_type": "this_weapon",
 							"name": {
@@ -144,6 +155,17 @@
 					"weight": "+1 kg",
 					"features": [
 						{
+							"type": "weapon_bulk_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -1
+						},
+						{
 							"type": "weapon_scope_acc_bonus",
 							"selection_type": "this_weapon",
 							"name": {
@@ -165,6 +187,17 @@
 					"cost": "+5000",
 					"weight": "+1 kg",
 					"features": [
+						{
+							"type": "weapon_bulk_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": -1
+						},
 						{
 							"type": "weapon_scope_acc_bonus",
 							"selection_type": "this_weapon",
@@ -310,6 +343,24 @@
 					"reference": "UT175",
 					"cost_type": "to_base_cost",
 					"cost": "+19 CF"
+				},
+				{
+					"id": "89f85244-b33e-4d3a-a49c-816a705a8d58",
+					"type": "eqp_modifier",
+					"name": "Fast-Draw Tailoring",
+					"reference": "HT64",
+					"notes": "Holsters only; +1",
+					"cost": "+4",
+					"features": [
+						{
+							"type": "skill_point_bonus",
+							"name": {
+								"compare": "is",
+								"qualifier": "Fast-Draw"
+							},
+							"amount": 1
+						}
+					]
 				},
 				{
 					"id": "bec94918-1da4-413b-bacf-0d372ff91860",

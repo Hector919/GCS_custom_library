@@ -1,0 +1,752 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "13ce8f42-16d0-4b30-983e-717c239a4fc4",
+			"type": "equipment",
+			"description": "Bulletproof Long Coat",
+			"notes": "something easily thrown over any ordinary outfit.\nNot suited to be worn over anything actually armored",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"modifiers": [
+				{
+					"id": "f3d2fbcf-75ad-4d35-b961-cb53823ce6ee",
+					"type": "eqp_modifier",
+					"name": "Medium Reflex",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "",
+							"specialization": "cut / pi",
+							"amount": 8
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 870,
+			"weight": "5.8 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Holdout"
+					},
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 4
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 870,
+				"extended_weight": "5.8 lb"
+			}
+		},
+		{
+			"id": "316415f0-6b43-42d7-9a2d-fbbd76d3a5a1",
+			"type": "equipment",
+			"description": "Bulletproof Jacket",
+			"notes": "It looks like a warm, thick, but otherwise ordinary jacket\nat least at first glance.",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"modifiers": [
+				{
+					"id": "f3d2fbcf-75ad-4d35-b961-cb53823ce6ee",
+					"type": "eqp_modifier",
+					"name": "Medium Reflex",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "",
+							"specialization": "cut / pi",
+							"amount": 8
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 450,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 4
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 450,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "6adeea0d-6e9a-4ad1-8239-4ceefa3dc6b5",
+			"type": "equipment",
+			"description": "Bulletproof Hood",
+			"notes": "Easily attaches to a jacket or long coat via a zipper.",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"modifiers": [
+				{
+					"id": "f3d2fbcf-75ad-4d35-b961-cb53823ce6ee",
+					"type": "eqp_modifier",
+					"name": "Medium Reflex",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "",
+							"specialization": "cut / pi",
+							"amount": 8
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 90,
+			"weight": "0.6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 4
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 90,
+				"extended_weight": "0.6 lb"
+			}
+		},
+		{
+			"id": "44c72539-3087-49bf-8605-b2ca1fd5364c",
+			"type": "equipment",
+			"description": "\"Motorbike\" Helmet",
+			"reference": "UT176",
+			"notes": "It works great as one, and will easily pass as one.\nIt's a lot more bulletproof than most motorbike helmets.\nHead: DR 18/12\nFace: DR 9",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Armor",
+				"Defenses"
+			],
+			"quantity": 1,
+			"value": 275,
+			"weight": "2.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 9
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 9
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"specialization": "cut / pi",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 24
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 275,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "ffec74a9-802c-426b-9613-9982c881d86f",
+			"type": "equipment",
+			"description": "Covert Torso Piece",
+			"notes": "A one-piece looking somewhat adjacent to a swimsuit.\ncan easily be worn *under* clothing and is very hard to spot, but doesn't offer quite as much protection",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"modifiers": [
+				{
+					"id": "f3d2fbcf-75ad-4d35-b961-cb53823ce6ee",
+					"type": "eqp_modifier",
+					"name": "Light Reflex",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "",
+							"specialization": "cut / pi",
+							"amount": 6
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 315,
+			"weight": "2.1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 3
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 315,
+				"extended_weight": "2.1 lb"
+			}
+		},
+		{
+			"id": "a895fb75-b580-418f-85b0-7b6993e7ec50",
+			"type": "equipment",
+			"description": "Bulletproof Pants",
+			"notes": "They look like warm, thick, but otherwise ordinary pants.\nat least at first glance.",
+			"tech_level": "9",
+			"tags": [
+				"Defenses"
+			],
+			"modifiers": [
+				{
+					"id": "f3d2fbcf-75ad-4d35-b961-cb53823ce6ee",
+					"type": "eqp_modifier",
+					"name": "Medium Reflex",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "",
+							"specialization": "cut / pi",
+							"amount": 8
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 420,
+			"weight": "2.8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 4
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 420,
+				"extended_weight": "2.8 lb"
+			}
+		},
+		{
+			"id": "0baf0385-e1d4-4827-b152-aeec54c5e0a6",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "81464357-583b-469b-95c6-6a112bb9221f",
+					"type": "equipment",
+					"description": "Helmet",
+					"reference": "UT176",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Armor",
+						"Defenses"
+					],
+					"quantity": 1,
+					"value": 460,
+					"weight": "6.5 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "eye",
+							"amount": 18
+						},
+						{
+							"type": "dr_bonus",
+							"location": "face",
+							"amount": 18
+						},
+						{
+							"type": "dr_bonus",
+							"location": "skull",
+							"specialization": "cut / pi",
+							"amount": 12
+						},
+						{
+							"type": "dr_bonus",
+							"location": "skull",
+							"amount": 24
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 460,
+						"extended_weight": "6.5 lb"
+					}
+				},
+				{
+					"id": "b75e3bb5-9be7-4603-aeb6-acb23102cdd2",
+					"type": "equipment",
+					"description": "Assault Boots",
+					"reference": "UT173",
+					"tech_level": "9",
+					"tags": [
+						"Armor",
+						"Defenses"
+					],
+					"quantity": 1,
+					"value": 200,
+					"weight": "4 lb",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "weapons_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Natural Attacks"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Kick"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1
+						},
+						{
+							"type": "dr_bonus",
+							"location": "foot",
+							"specialization": "cut / pi",
+							"amount": 12
+						},
+						{
+							"type": "dr_bonus",
+							"location": "foot",
+							"amount": 6
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 200,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "8f5e8088-aee6-49da-9c4d-6f8981ff38be",
+					"type": "equipment",
+					"description": "Reflex Gloves",
+					"reference": "UT172",
+					"tech_level": "9",
+					"tags": [
+						"Defenses"
+					],
+					"quantity": 1,
+					"value": 30,
+					"weight": "0.2 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "hand",
+							"specialization": "cut / pi",
+							"amount": 8
+						},
+						{
+							"type": "dr_bonus",
+							"location": "hand",
+							"amount": 4
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 30,
+						"extended_weight": "0.2 lb"
+					}
+				},
+				{
+					"id": "a13224f9-9087-48ad-9c43-034f11041db4",
+					"type": "equipment",
+					"description": "Heavy Reflex Jacket",
+					"reference": "UT172",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Defenses"
+					],
+					"quantity": 1,
+					"value": 630,
+					"weight": "6.3 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "neck",
+							"specialization": "cut / pi",
+							"amount": 8
+						},
+						{
+							"type": "dr_bonus",
+							"location": "neck",
+							"amount": 4
+						},
+						{
+							"type": "dr_bonus",
+							"location": "arm",
+							"specialization": "cut / pi",
+							"amount": 8
+						},
+						{
+							"type": "dr_bonus",
+							"location": "arm",
+							"amount": 4
+						},
+						{
+							"type": "dr_bonus",
+							"location": "vitals",
+							"specialization": "cut / pi",
+							"amount": 12
+						},
+						{
+							"type": "dr_bonus",
+							"location": "vitals",
+							"amount": 6
+						},
+						{
+							"type": "dr_bonus",
+							"location": "torso",
+							"specialization": "cut / pi",
+							"amount": 12
+						},
+						{
+							"type": "dr_bonus",
+							"location": "torso",
+							"amount": 6
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 630,
+						"extended_weight": "6.3 lb"
+					}
+				},
+				{
+					"id": "2ebbcaa9-c973-474c-b2c2-0c5aef6e2e78",
+					"type": "equipment",
+					"description": "Heavy Anti-Stab Plates",
+					"reference": "UT172",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Defenses"
+					],
+					"quantity": 1,
+					"value": 1260,
+					"weight": "4.2 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "groin",
+							"amount": 6
+						},
+						{
+							"type": "dr_bonus",
+							"location": "vitals",
+							"amount": 6
+						},
+						{
+							"type": "dr_bonus",
+							"location": "torso",
+							"amount": 6
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 1260,
+						"extended_weight": "4.2 lb"
+					}
+				},
+				{
+					"id": "caff6a5c-4865-41ea-bf2b-b67b4d04e522",
+					"type": "equipment",
+					"description": "Reflex Pants",
+					"reference": "UT172",
+					"tech_level": "9",
+					"legality_class": "3",
+					"tags": [
+						"Defenses"
+					],
+					"quantity": 1,
+					"value": 420,
+					"weight": "2.8 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "groin",
+							"specialization": "cut / pi",
+							"amount": 8
+						},
+						{
+							"type": "dr_bonus",
+							"location": "groin",
+							"amount": 4
+						},
+						{
+							"type": "dr_bonus",
+							"location": "leg",
+							"specialization": "cut / pi",
+							"amount": 8
+						},
+						{
+							"type": "dr_bonus",
+							"location": "leg",
+							"amount": 4
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 420,
+						"extended_weight": "2.8 lb"
+					}
+				}
+			],
+			"description": "Light SWAT armor",
+			"notes": "Get in. Be fast. Save lives.\nYou're very visibly armored for *lots* of violence to anyone even glancing your way.\nBut in the line of work this set-up is made for, that's not an issue.\nSurviving rifle fire very much is, though.",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "24 lb"
+			}
+		},
+		{
+			"id": "30574c96-c351-443b-b531-296c7ce5c812",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Holster",
+			"reference": "B288",
+			"notes": "@Type: Belt, Shoulder, Back etc.@",
+			"tech_level": "9",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 30,
+			"weight": "0.5 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "7.5 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "9e208851-a384-44f6-afe5-7896e2764b75",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Double Holster",
+			"reference": "B288",
+			"notes": "@Type: Belt, Shoulder, Back etc.@",
+			"tech_level": "9",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "15 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "4fb18dcb-49ab-4b26-bdd3-9ced30f4c154",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Backpack, Small",
+			"reference": "B288",
+			"tech_level": "9",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "20 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "a9ac96c3-89c6-4d4b-aca5-178313a7d427",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Backpack, Medium",
+			"reference": "B288",
+			"tech_level": "9",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "2 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "40 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "770157f9-d460-434e-9b52-ba29262283ac",
+			"type": "equipment_container",
+			"open": true,
+			"description": "Backpack, Large",
+			"reference": "B288",
+			"tech_level": "9",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "5 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "5 lb"
+			}
+		}
+	]
+}
