@@ -1,14 +1,13 @@
 {
-	"type": "eqp_modifier_list",
-	"version": 4,
+	"version": 5,
 	"rows": [
 		{
-			"id": "6520742f-7938-4905-b494-b71598a05fc9",
-			"type": "eqp_modifier_container",
+			"id": "FyaC4fUvlniNjRZKa",
+			"name": "General Gadget Modifiers",
+			"notes": "Stuff you can apply to most things that use electric power. If you're unsure if you can apply these modifiers to one specific item, ask the GM.",
 			"children": [
 				{
-					"id": "cc9f8850-020a-49d1-8011-51d5c0712d3a",
-					"type": "eqp_modifier",
+					"id": "fnFXvFfFxoJgccOuP",
 					"name": "Cheap",
 					"reference": "UT15",
 					"cost_type": "to_base_cost",
@@ -17,8 +16,7 @@
 					"weight": "x1.5"
 				},
 				{
-					"id": "2620bbe4-d166-4ac3-b0cb-55c659ceb8f6",
-					"type": "eqp_modifier",
+					"id": "fR9-aS0MajNlTfHNd",
 					"name": "Rugged",
 					"reference": "UT15",
 					"notes": "+2 HT",
@@ -28,8 +26,7 @@
 					"weight": "x1.2"
 				},
 				{
-					"id": "b0c862cc-1404-49b7-9443-478f36a904a4",
-					"type": "eqp_modifier",
+					"id": "fb36_Z9bbuOIroqnc",
 					"name": "Expensive",
 					"reference": "UT15",
 					"cost_type": "to_base_cost",
@@ -37,18 +34,15 @@
 					"cost": "+1 CF",
 					"weight": "x2/3"
 				}
-			],
-			"open": true,
-			"name": "General Gadget Modifiers",
-			"notes": "Stuff you can apply to most things that use electric power. If you're unsure if you can apply these modifiers to one specific item, ask the GM."
+			]
 		},
 		{
-			"id": "87967e22-b692-4a39-b255-6b744b953376",
-			"type": "eqp_modifier_container",
+			"id": "FEpsoTZ2c0i9H71Dq",
+			"name": "Firearms modifiers",
+			"notes": "as the name implies, these are for guns only",
 			"children": [
 				{
-					"id": "5aaff8af-7c09-46b8-8074-4e2cd0095f1d",
-					"type": "eqp_modifier",
+					"id": "fW-SJ6hM2jMLg2tRo",
 					"name": "Fine Quality",
 					"reference": "B280",
 					"notes": "min. Accuracy 2",
@@ -69,8 +63,7 @@
 					]
 				},
 				{
-					"id": "4c7cd9c7-dedf-4968-a107-942ba80fe19b",
-					"type": "eqp_modifier",
+					"id": "fEtQOQ8sp_gWFxWqx",
 					"name": "Very Fine Quality",
 					"reference": "B280",
 					"notes": "min. accuracy 4",
@@ -91,8 +84,7 @@
 					]
 				},
 				{
-					"id": "9ff3dd80-2629-424d-9fd2-90be3c047e79",
-					"type": "eqp_modifier",
+					"id": "f9PLdrIxsccW6Eqpv",
 					"name": "Compact Scope",
 					"notes": "+2 Scope Accuracy",
 					"cost_type": "to_final_cost",
@@ -113,8 +105,7 @@
 					]
 				},
 				{
-					"id": "3dceaf7a-f547-4380-a4ed-c2442f106694",
-					"type": "eqp_modifier",
+					"id": "fGtQ61cZn5M-wud_X",
 					"name": "Long-Range Scope",
 					"notes": "+4 Scope Accuracy",
 					"cost_type": "to_final_cost",
@@ -146,8 +137,7 @@
 					]
 				},
 				{
-					"id": "16a17a1d-3104-43b9-939e-b3c28f059443",
-					"type": "eqp_modifier",
+					"id": "ft7MS8gIzcz4aIKtX",
 					"name": "Long-Range Scope",
 					"notes": "+5 Scope Accuracy",
 					"cost_type": "to_final_cost",
@@ -179,8 +169,7 @@
 					]
 				},
 				{
-					"id": "fadff71c-4fcf-4017-8fa7-c9abcbb2d22c",
-					"type": "eqp_modifier",
+					"id": "fawGg31q5lNEZcQmN",
 					"name": "Long-Range Scope",
 					"notes": "+6 Scope Accuracy",
 					"cost_type": "to_final_cost",
@@ -212,8 +201,7 @@
 					]
 				},
 				{
-					"id": "f9d250e1-f058-435b-8605-0a044e9ad087",
-					"type": "eqp_modifier",
+					"id": "fDw5UyRGoPO10R1iB",
 					"name": "Suppressor",
 					"notes": "-2 to hearing",
 					"cost_type": "to_final_cost",
@@ -234,8 +222,7 @@
 					]
 				},
 				{
-					"id": "cb866708-3748-4d32-8ce4-f332d6bb1f2d",
-					"type": "eqp_modifier",
+					"id": "fSEd-Y28FtMzMZCAx",
 					"name": "Suppressor",
 					"notes": "-4 to hearing",
 					"cost_type": "to_final_cost",
@@ -256,8 +243,7 @@
 					]
 				},
 				{
-					"id": "b2dccd6a-f599-4bdb-80e0-1343d912ccac",
-					"type": "eqp_modifier",
+					"id": "ftKS-pA74NHG3IY-K",
 					"name": "Suppressor",
 					"notes": "-6 to hearing",
 					"cost_type": "to_final_cost",
@@ -277,25 +263,32 @@
 						}
 					]
 				}
-			],
-			"open": true,
-			"name": "Firearms modifiers",
-			"notes": "as the name implies, these are for guns only"
+			]
 		},
 		{
-			"id": "ccb800a2-dc65-4b6e-a4a2-f483eb599b77",
-			"type": "eqp_modifier_container",
+			"id": "FYusa5oUOTbJPIw3g",
+			"name": "Melee weapon modifiers",
+			"notes": "as the name implies, these are for melee weapons only",
 			"children": [
 				{
-					"id": "16e15a4f-1b72-4f04-87c4-f6d707f7dd33",
-					"type": "eqp_modifier",
+					"id": "f-HC4CGPEShjufVgF",
 					"name": "Superfine",
 					"reference": "UT163",
-					"notes": "add armor divisor (2) manually",
 					"cost_type": "to_base_cost",
 					"tech_level": "9",
 					"cost": "+5 CF",
 					"features": [
+						{
+							"type": "weapon_dr_divisor_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1
+						},
 						{
 							"type": "weapon_bonus",
 							"selection_type": "this_weapon",
@@ -310,50 +303,44 @@
 					]
 				},
 				{
-					"id": "0c25221d-4bb8-4e40-86f6-c964c110adfb",
-					"type": "eqp_modifier",
+					"id": "fH_1WUM_68VJSvgdw",
 					"name": "Vibroblade",
 					"reference": "UT164",
-					"notes": "manually add modifications",
 					"cost_type": "to_base_cost",
 					"tech_level": "10",
 					"cost": "+10 CF"
 				}
-			],
-			"open": true,
-			"name": "Melee weapon modifiers",
-			"notes": "as the name implies, these are for melee weapons only"
+			]
 		},
 		{
-			"id": "66fc01d4-31e7-4041-98bf-f07c19aed32f",
-			"type": "eqp_modifier_container",
+			"id": "FKC49lS3_13H2jND3",
+			"name": "Clothes \u0026 Worn items",
+			"notes": "For armored outfits, holsters, jackets etc.",
 			"children": [
 				{
-					"id": "2f50d4ba-4ef1-4ae8-8300-d906bb72eac7",
-					"type": "eqp_modifier",
+					"id": "fvmj8-I5v3W8eysjU",
 					"name": "Stylish",
 					"reference": "UT175",
 					"cost_type": "to_base_cost",
 					"cost": "+3 CF"
 				},
 				{
-					"id": "b34cdfb3-915f-48aa-9052-360794420873",
-					"type": "eqp_modifier",
+					"id": "ftJtcfLLkcGjjN-9v",
 					"name": "Fashion Original",
 					"reference": "UT175",
 					"cost_type": "to_base_cost",
 					"cost": "+19 CF"
 				},
 				{
-					"id": "89f85244-b33e-4d3a-a49c-816a705a8d58",
-					"type": "eqp_modifier",
+					"id": "ffIUqt3vxZuC91yaW",
 					"name": "Fast-Draw Tailoring",
 					"reference": "HT64",
 					"notes": "Holsters only; +1",
 					"cost": "+4",
 					"features": [
 						{
-							"type": "skill_point_bonus",
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
 							"name": {
 								"compare": "is",
 								"qualifier": "Fast-Draw"
@@ -363,8 +350,7 @@
 					]
 				},
 				{
-					"id": "bec94918-1da4-413b-bacf-0d372ff91860",
-					"type": "eqp_modifier",
+					"id": "f4_6avIj9TFf72FOH",
 					"name": "Holdout Tailoring",
 					"reference": "HT64",
 					"notes": "+1",
@@ -381,8 +367,7 @@
 					]
 				},
 				{
-					"id": "64d33d6e-027f-4d1d-8b38-bd4802e27b38",
-					"type": "eqp_modifier",
+					"id": "fTyJ83cTHd_L58t6j",
 					"name": "Holdout Tailoring",
 					"reference": "HT64",
 					"notes": "+2",
@@ -398,10 +383,7 @@
 						}
 					]
 				}
-			],
-			"open": true,
-			"name": "Clothes \u0026 Worn items",
-			"notes": "For armored outfits, holsters, jackets etc."
+			]
 		}
 	]
 }
